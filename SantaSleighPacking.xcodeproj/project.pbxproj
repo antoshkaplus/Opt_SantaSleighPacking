@@ -15,6 +15,7 @@
 		7001B470186ABA1000085AA6 /* handle_layer.py in Copy Files */ = {isa = PBXBuildFile; fileRef = 7001B46A186AB2CA00085AA6 /* handle_layer.py */; };
 		7068C399185A840900BCB450 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7068C398185A840900BCB450 /* main.cpp */; };
 		7068C39B185A840900BCB450 /* Check.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7068C39A185A840900BCB450 /* Check.1 */; };
+		70B5C0EC1871D4CA005768CE /* plot_stats.py in Copy Files */ = {isa = PBXBuildFile; fileRef = 70B5C0EB1871D4C3005768CE /* plot_stats.py */; };
 		70C10D35186D3D1100B034D8 /* presents.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 70CEE47018582C8000028025 /* presents.csv */; };
 		70CEE47118582C8000028025 /* presents.csv in Copy Files */ = {isa = PBXBuildFile; fileRef = 70CEE47018582C8000028025 /* presents.csv */; };
 		70E796A71857DCBA00D1A929 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70E796A61857DCBA00D1A929 /* main.cpp */; };
@@ -42,6 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				70B5C0EC1871D4CA005768CE /* plot_stats.py in Copy Files */,
 				7001B46E186ABA1000085AA6 /* layers.py in Copy Files */,
 				7001B46F186ABA1000085AA6 /* plot.py in Copy Files */,
 				7001B470186ABA1000085AA6 /* handle_layer.py in Copy Files */,
@@ -64,6 +66,7 @@
 		7068C398185A840900BCB450 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7068C39A185A840900BCB450 /* Check.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Check.1; sourceTree = "<group>"; };
 		70B5C0EA1871B45A005768CE /* results.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = results.txt; sourceTree = "<group>"; };
+		70B5C0EB1871D4C3005768CE /* plot_stats.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = plot_stats.py; sourceTree = "<group>"; };
 		70C10D2A186CE97500B034D8 /* Packing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packing.h; sourceTree = "<group>"; };
 		70C10D37186F212700B034D8 /* TabuSearchMaxRectPacking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabuSearchMaxRectPacking.h; sourceTree = "<group>"; };
 		70C10D3A186F4E4F00B034D8 /* MaxRectPacking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxRectPacking.h; sourceTree = "<group>"; };
@@ -103,6 +106,7 @@
 				70581E5E186728A3000ACC0F /* plot_between_layer.py */,
 				70511AE01868A4FE0044946B /* rects.py */,
 				7001B46A186AB2CA00085AA6 /* handle_layer.py */,
+				70B5C0EB1871D4C3005768CE /* plot_stats.py */,
 			);
 			path = Scripts;
 			sourceTree = "<group>";

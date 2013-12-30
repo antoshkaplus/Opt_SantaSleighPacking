@@ -1,2 +1,5 @@
 
-best 
+Max rectangles: 
+1. short side first :
+2. short side and huge first: 
+3. short side random:

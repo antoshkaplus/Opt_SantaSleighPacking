@@ -12,7 +12,7 @@
 #include "Packing.h"
 
 struct MaxRectPacking : Packing {
-    MaxRectPacking() : nextMax(*this), nextMaxHuge(*this) {
+    MaxRectPacking() : nextMax(*this), nextMaxHuge(*this), nextMaxRandom(*this) {
         next = &nextMax;
         moveLess = &moveShortSide;
         isCandidate = &topLeft;
@@ -141,9 +141,31 @@ struct MaxRectPacking : Packing {
         }
     };
     
+    struct NextMaxRandom : Next {
+        unsigned n_max;
+        NextMaxRandom(MaxRectPacking& master) : Next(master) {
+            n_max = 10;
+        }
+        void operator()() {
+            vector<Move>& cands = master.candidates; 
+            function<bool(const Move&, const Move&)> greater = [&](const Move& m_1, const Move& m_2) {
+                return (*master.moveLess)(m_2, m_1);
+            };
+            unsigned n = min(n_max, (unsigned)cands.size());
+            partial_sort(cands.begin(), cands.end(), cands.begin()+n, greater);
+            Move m = *(cands.begin()+random()%n);
+            master.solution.push_back(m);
+            master.packingRects.erase(
+                remove(master.packingRects.begin(), 
+                     master.packingRects.end(), 
+                     master.solution.back().pr));
+        }
+    };
+    
     Next *next;
     NextMax nextMax;
     NextMaxHuge nextMaxHuge;
+    NextMaxRandom nextMaxRandom;
     
     MoveLess *moveLess;
     MoveShortSide moveShortSide;

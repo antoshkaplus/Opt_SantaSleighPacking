@@ -24,6 +24,7 @@ struct Best {
 
 const bool COMPUTE_TAIL = false;
 const bool WRITE_LOG = true;
+const bool WRITE_STATS = true;
 
 void fill(vector<Pr>::iterator begin, unsigned n) {
     // begin 1, 2, 3, 4....
@@ -42,8 +43,13 @@ void fill(vector<Pr>::iterator begin, unsigned n) {
     baseL.setPacking(baseL.tabuSearchMaxRectPacking);
     */
     
-    baseL.maxRectPacking.setNext(baseL.maxRectPacking.nextMaxHuge);
-    
+    //baseL.maxRectPacking.setNext(baseL.maxRectPacking.nextMaxHuge);
+    baseL.maxRectPacking.setNext(baseL.maxRectPacking.nextMaxRandom);
+    ofstream stats;
+    if (WRITE_STATS) {
+        stats.open("stats.txt");
+        stats << "elelements_inside,size_z" << endl;
+    }
     while (b_it-begin != n) {
         //if (b_it-begin > 700000) baseL.setPacking(baseL.linePacking);
         // all take what they need
@@ -65,7 +71,11 @@ void fill(vector<Pr>::iterator begin, unsigned n) {
             //writePrs2D(baseL.begin, baseL.n);
             printf("elements inside: %u sz_z_max: %u\n", (unsigned)(b_it-begin), baseL.sz_z_max);
         }
+        if (WRITE_STATS) {
+            stats << b_it-begin << "," << layer.sz_z_max << endl;
+        }
     }
+    if (WRITE_STATS) stats.close();
  }
 
 
