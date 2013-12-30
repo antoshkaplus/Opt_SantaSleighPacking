@@ -8,7 +8,8 @@ Max rectangles:
     2095320
 4. double origin short side random of 10: really bad // but has expectations on TS
     it doesn't work. stay with tot left.
-5. short side huge in small rectangle
+5. short side huge in small rectangle:
 
-6. short side huge first if sz diff > 1:
+6. max count short side if sz diff > 1 huge first :
     
+7. optimal | short side if sz diff > 1 | huge first:
