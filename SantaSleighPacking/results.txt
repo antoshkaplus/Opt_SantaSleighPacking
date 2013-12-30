@@ -1,5 +1,11 @@
 
 Max rectangles: 
-1. short side first :
-2. short side and huge first: 
-3. short side random:
+1. short side first : 
+    2071702
+2. short side and huge first:
+    2068304
+3. short side random of 10:
+
+    
+4. double origin short side random of 10: really bad // but has expectations on TS
+    it doesn't work. stay with tot left.

@@ -60,6 +60,7 @@ public:
                 while (!bs.isFinished()) {
                     n = bs.value();
                     result = packing.fillFixed(begin, n) == 0;
+                    writePrs2D(begin, n);
                     if (result && (curPerf = perf(begin, n)) > bestPerf) {
                         bestPerf = curPerf;
                         solution.assign(begin, begin+n);
@@ -67,9 +68,12 @@ public:
                     bs.update(result);
                 }
             }
-            
         }
+    };
+    
+    struct MaxCountSequentialSearch : SolutionSearch {
         
+    
     };
     
     

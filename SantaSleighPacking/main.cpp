@@ -24,7 +24,7 @@ struct Best {
 
 const bool COMPUTE_TAIL = false;
 const bool WRITE_LOG = true;
-const bool WRITE_STATS = true;
+const bool WRITE_STATS = true; 
 
 void fill(vector<Pr>::iterator begin, unsigned n) {
     // begin 1, 2, 3, 4....
@@ -43,8 +43,9 @@ void fill(vector<Pr>::iterator begin, unsigned n) {
     baseL.setPacking(baseL.tabuSearchMaxRectPacking);
     */
     
+    baseL.maxRectPacking.setNext(baseL.maxRectPacking.nextMaxHugeInSmalRect);
     //baseL.maxRectPacking.setNext(baseL.maxRectPacking.nextMaxHuge);
-    baseL.maxRectPacking.setNext(baseL.maxRectPacking.nextMaxRandom);
+    //baseL.maxRectPacking.setCandidate(baseL.maxRectPacking.doubleOrigin);
     ofstream stats;
     if (WRITE_STATS) {
         stats.open("stats.txt");

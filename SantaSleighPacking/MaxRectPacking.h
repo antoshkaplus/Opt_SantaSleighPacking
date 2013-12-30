@@ -12,7 +12,8 @@
 #include "Packing.h"
 
 struct MaxRectPacking : Packing {
-    MaxRectPacking() : nextMax(*this), nextMaxHuge(*this), nextMaxRandom(*this) {
+    MaxRectPacking() : nextMax(*this), nextMaxHuge(*this), nextMaxRandom(*this), nextMaxHugeInSmalRect(*this),
+            topLeft(*this) {
         next = &nextMax;
         moveLess = &moveShortSide;
         isCandidate = &topLeft;
@@ -87,15 +88,18 @@ struct MaxRectPacking : Packing {
     
     // is candidate
     struct Candidate {
+        MaxRectPacking& master;
+        Candidate(MaxRectPacking& master) : master(master) {}
         virtual bool operator()(const Move& m) = 0;
     };
     
     struct TopLeftCandidate : Candidate {
+        TopLeftCandidate(MaxRectPacking& master) : Candidate(master) {}
         bool operator()(const Move& m) {
             return m.corner == CORNER_TL;
         }
     };
-    
+        
     struct MoveShortSide : MoveLess {
         unsigned score(const Move& m) const {
             return m.isRotated ? min(m.rect.sz_x - (*m.pr).sz_y, 
@@ -141,6 +145,24 @@ struct MaxRectPacking : Packing {
         }
     };
     
+    struct NextMaxHugeInSmallRect : Next {
+        NextMaxHugeInSmallRect(MaxRectPacking& master) : Next(master) {}
+        void operator()() {
+            vector<Move>& cands = master.candidates; 
+            function<bool(const Move&, const Move&)> less = [&](const Move& m_1, const Move& m_2) {
+                return (*master.moveLess)(m_1, m_2) || (!(*master.moveLess)(m_2, m_1) 
+                            && (m_1.pr->area() < m_2.pr->area() || (m_1.pr->area() == m_2.pr->area() 
+                                && m_1.rect.area() > m_2.rect.area())));
+            };
+            Move m = *max_element(cands.begin(), cands.end(), less);
+            master.solution.push_back(m);
+            master.packingRects.erase(
+                remove(master.packingRects.begin(), 
+                     master.packingRects.end(), 
+                     master.solution.back().pr));
+        }
+    };
+    
     struct NextMaxRandom : Next {
         unsigned n_max;
         NextMaxRandom(MaxRectPacking& master) : Next(master) {
@@ -162,9 +184,12 @@ struct MaxRectPacking : Packing {
         }
     };
     
+    unsigned iterationIndex;
+    
     Next *next;
     NextMax nextMax;
     NextMaxHuge nextMaxHuge;
+    NextMaxHugeInSmallRect nextMaxHugeInSmalRect;
     NextMaxRandom nextMaxRandom;
     
     MoveLess *moveLess;
@@ -172,6 +197,7 @@ struct MaxRectPacking : Packing {
     
     Candidate *isCandidate;
     TopLeftCandidate topLeft;
+    
     
     vector<LocRect> freeRects; 
     vector<Pr*> packingRects;
@@ -279,7 +305,9 @@ struct MaxRectPacking : Packing {
     }
     
     void solve() {
+        iterationIndex = 0;
         while (packingRects.size() > 0) {
+            iterationIndex++;
             selectCandidates();
             if (candidates.size() == 0) break;
             (*next)();

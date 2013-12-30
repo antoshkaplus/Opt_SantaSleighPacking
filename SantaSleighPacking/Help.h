@@ -29,7 +29,10 @@ const unsigned int SZ = 1000;
 struct PlaneLoc {
     PlaneLoc() {}
     PlaneLoc(unsigned x, unsigned y) : x(x), y(y) {}
-    unsigned x, y;
+    int x, y;
+    static double distance(const PlaneLoc& p_1, const PlaneLoc& p_2) {
+        return sqrt((p_1.x-p_2.x)*(p_1.x-p_2.x) + (p_1.y-p_2.y)*(p_1.y-p_2.y));
+    }
 };
 
 struct SpaceLoc : PlaneLoc {
@@ -84,6 +87,10 @@ struct LocRect : PlaneLoc, Rect {
                ((r_1.y+r_1.sz_y==r_1.y || r_2.y+r_2.sz_y==r_1.y) &&
                     ((r_1.x <= r_2.x && r_2.x <= r_1.x+r_1.sz_x-1) ||
                      (r_2.x <= r_1.x && r_1.x <= r_2.x+r_2.sz_x-1)));
+    }
+    
+    PlaneLoc endLoc() const {
+        return PlaneLoc(x+sz_x-1, y+sz_y-1);
     }
 };
 
