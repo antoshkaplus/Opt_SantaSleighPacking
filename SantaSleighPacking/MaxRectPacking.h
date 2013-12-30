@@ -151,9 +151,9 @@ struct MaxRectPacking : Packing {
             function<bool(const Move&, const Move&)> greater = [&](const Move& m_1, const Move& m_2) {
                 return (*master.moveLess)(m_2, m_1);
             };
-            unsigned n = min(n_max, (unsigned)cands.size());
-            partial_sort(cands.begin(), cands.end(), cands.begin()+n, greater);
-            Move m = *(cands.begin()+random()%n);
+            unsigned i = random()%min(n_max, (unsigned)cands.size());
+            nth_element(cands.begin(), cands.begin()+i, cands.end(), greater);
+            Move m = *(cands.begin()+i);
             master.solution.push_back(m);
             master.packingRects.erase(
                 remove(master.packingRects.begin(), 
