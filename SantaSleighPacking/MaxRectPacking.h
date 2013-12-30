@@ -12,7 +12,7 @@
 #include "Packing.h"
 
 struct MaxRectPacking : Packing {
-    MaxRectPacking() : nextMax(*this), nextMaxHuge(*this), nextMaxRandom(*this), nextMaxHugeInSmalRect(*this),
+    MaxRectPacking() : nextMax(*this), nextMaxHuge(*this), nextMaxRandom(*this), nextMaxHugeInSmallRect(*this),
             topLeft(*this) {
         next = &nextMax;
         moveLess = &moveShortSide;
@@ -108,7 +108,7 @@ struct MaxRectPacking : Packing {
                                      m.rect.sz_y - (*m.pr).sz_y);
         }
         bool operator()(const Move& m_1, const Move& m_2) const {
-            return score(m_1) > score(m_2);
+            return abs((int)score(m_1) - (int)score(m_2)) > 1 && score(m_1) > score(m_2);
         }
     }; 
     
@@ -152,7 +152,7 @@ struct MaxRectPacking : Packing {
             function<bool(const Move&, const Move&)> less = [&](const Move& m_1, const Move& m_2) {
                 return (*master.moveLess)(m_1, m_2) || (!(*master.moveLess)(m_2, m_1) 
                             && (m_1.pr->area() < m_2.pr->area() || (m_1.pr->area() == m_2.pr->area() 
-                                && m_1.rect.area() > m_2.rect.area())));
+                                && m_1.rect.minSz() < m_2.rect.minSz()))); //m_1.rect.area() < m_2.rect.area())));
             };
             Move m = *max_element(cands.begin(), cands.end(), less);
             master.solution.push_back(m);
@@ -189,7 +189,7 @@ struct MaxRectPacking : Packing {
     Next *next;
     NextMax nextMax;
     NextMaxHuge nextMaxHuge;
-    NextMaxHugeInSmallRect nextMaxHugeInSmalRect;
+    NextMaxHugeInSmallRect nextMaxHugeInSmallRect;
     NextMaxRandom nextMaxRandom;
     
     MoveLess *moveLess;

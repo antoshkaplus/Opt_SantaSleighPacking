@@ -59,6 +59,10 @@ struct Rect {
     static bool areaLess(const Rect& r_1, const Rect& r_2) {
         return r_1.area() < r_2.area();
     }
+    
+    unsigned minSz() const {
+        return min(sz_x, sz_y);
+    }
 };
 
 struct LocRectInterface {};

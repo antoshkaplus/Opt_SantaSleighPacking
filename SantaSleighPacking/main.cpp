@@ -43,7 +43,8 @@ void fill(vector<Pr>::iterator begin, unsigned n) {
     baseL.setPacking(baseL.tabuSearchMaxRectPacking);
     */
     
-    baseL.maxRectPacking.setNext(baseL.maxRectPacking.nextMaxHugeInSmalRect);
+    baseL.setSearch(baseL.maxCountSequentialSearch);
+    baseL.maxRectPacking.setNext(baseL.maxRectPacking.nextMaxHuge);
     //baseL.maxRectPacking.setNext(baseL.maxRectPacking.nextMaxHuge);
     //baseL.maxRectPacking.setCandidate(baseL.maxRectPacking.doubleOrigin);
     ofstream stats;

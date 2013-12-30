@@ -71,5 +71,49 @@
             endingLineNumber = "65">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/BaseLayer.h"
+            timestampString = "410133014.613955"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaseLayer::MaxCountSequentialSearch::search()"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/BaseLayer.h"
+                  timestampString = "410133852.738342"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaseLayer::MaxCountSequentialSearch::search()"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/BaseLayer.h"
+                  timestampString = "410133852.738899"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "673">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

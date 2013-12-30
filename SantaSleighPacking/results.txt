@@ -5,7 +5,10 @@ Max rectangles:
 2. short side and huge first:
     2068304
 3. short side random of 10:
-
-    
+    2095320
 4. double origin short side random of 10: really bad // but has expectations on TS
     it doesn't work. stay with tot left.
+5. short side huge in small rectangle
+
+6. short side huge first if sz diff > 1:
+    

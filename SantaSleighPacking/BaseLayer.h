@@ -31,8 +31,8 @@ public:
 
     struct SolutionSearch {
         BaseLayer& master; 
-        vector<Pr> solution;
-        SolutionSearch(BaseLayer& master) : master(master) {}
+        vector<Pr>& solution;
+        SolutionSearch(BaseLayer& master) : master(master), solution(master.solution) {}
         virtual void search() = 0;
     };
     
@@ -60,7 +60,7 @@ public:
                 while (!bs.isFinished()) {
                     n = bs.value();
                     result = packing.fillFixed(begin, n) == 0;
-                    writePrs2D(begin, n);
+                    //writePrs2D(begin, n);
                     if (result && (curPerf = perf(begin, n)) > bestPerf) {
                         bestPerf = curPerf;
                         solution.assign(begin, begin+n);
@@ -72,7 +72,18 @@ public:
     };
     
     struct MaxCountSequentialSearch : SolutionSearch {
-        
+        MaxCountSequentialSearch(BaseLayer& master) : SolutionSearch(master) {}
+        void search() {
+            solution.clear();
+            auto& packing = *master.packing;
+            auto begin = master.begin;
+            auto n_max = master.n_max;
+            unsigned n;
+            n = boundSzZ(begin, n_max, 250);
+            while (packing.fillFixed(begin, n) != 0) n--;
+            //writePrs2D(begin, n);
+            solution.assign(begin, begin+n);
+        }
     
     };
     
@@ -91,7 +102,7 @@ public:
         return n;
     }
 
-    BaseLayer() : bruteSearch(*this) {
+    BaseLayer() : bruteSearch(*this), maxCountSequentialSearch(*this) {
         packing = &maxRectPacking;
         solutionSearch = &bruteSearch;
     }
@@ -107,8 +118,9 @@ public:
     unsigned n_max;
     Packing *packing;
     SolutionSearch *solutionSearch;
-    
+    vector<Pr> solution;
     BruteSearch bruteSearch;
+    MaxCountSequentialSearch maxCountSequentialSearch;
     
     LinePacking linePacking;
     CornerPacking cornerPacking;
