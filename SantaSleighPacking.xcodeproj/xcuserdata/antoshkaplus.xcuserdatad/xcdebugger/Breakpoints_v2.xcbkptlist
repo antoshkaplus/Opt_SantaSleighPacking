@@ -1,0 +1,2209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "254"
+            endingLineNumber = "254">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432685.06883"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432685.069115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "333">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432685.069337"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432685.069541"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "506">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432685.069744"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "918">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432685.070022"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "942">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)::$_2::operator()(Pr&amp;, Pr&amp;) const"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432685.070226"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432891.024119"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "959">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432891.024398"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1068">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432891.02461"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1184">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432891.0248"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1300">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432891.025088"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1593">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;)::$_3::operator()(Pr&amp;) const"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408432891.025425"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "339"
+            endingLineNumber = "339">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "271"
+            endingLineNumber = "271">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "292"
+            endingLineNumber = "292">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fillLayer(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408490387.84181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fillLayer(std::__1::vector&lt;Pr, std::__1::allocator&lt;Pr&gt; &gt;&amp;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "408490387.842227"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "142">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409422353.190363"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "1665">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409422353.190631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "1733">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409422353.190946"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "1835">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409422353.191218"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "1896">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Help.h"
+            timestampString = "409967663.705762"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "checkLayer(PR_C_IT begin, unsigned n, unsigned z_min, unsigned z_max)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409627890.449929"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "1950">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409627890.4503"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "1988">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BetweenLayer::fill(std::__1::__wrap_iter&lt;Pr*&gt;, std::__1::__wrap_iter&lt;Pr*&gt;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/BetweenLayer.h"
+                  timestampString = "409609785.768619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "3996">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BetweenLayer::fill(std::__1::__wrap_iter&lt;Pr*&gt;, std::__1::__wrap_iter&lt;Pr*&gt;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/BetweenLayer.h"
+                  timestampString = "409609785.769003"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "4170">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409626208.674722"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409626208.675034"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "293">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409626208.675338"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409626208.675628"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "970">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409626208.675948"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "991">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Help.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "339"
+            endingLineNumber = "339">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409627843.881497"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "430">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409627843.881923"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409627843.882495"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409627843.883538"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "4607">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409627843.883892"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "4716">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409627843.884353"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "4823">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::RectSetStrategy::fill(Pr&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409694730.251734"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "559">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::RectSetStrategy::fill(Pr&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409694730.25204"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "691">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::RectSetStrategy::fill(Pr&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409694730.252321"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "831">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::RectSetStrategy::fill(Pr&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409694730.252603"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "986">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409713451.101969"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409713451.102349"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "290">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TailLayer.h"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int, TailLayer::Strategy&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409713578.465488"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "275"
+                  endingLineNumber = "275"
+                  offsetFromSymbolStart = "2128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TailLayer::fill(BaseLayer&amp;, std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int, TailLayer::Strategy&amp;)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TailLayer.h"
+                  timestampString = "409713578.465868"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "275"
+                  endingLineNumber = "275"
+                  offsetFromSymbolStart = "2211">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Packing.h"
+            timestampString = "409804793.968545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Packing.h"
+            timestampString = "409804793.968545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Packing.h"
+            timestampString = "409804793.968545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Packing.h"
+            timestampString = "409804793.968545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineCovering::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Covering.h"
+                  timestampString = "409803865.713454"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineCovering::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Covering.h"
+                  timestampString = "409803865.713718"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "545">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineCovering::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Covering.h"
+                  timestampString = "409803865.713998"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "574">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineCovering::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Covering.h"
+                  timestampString = "409803865.714354"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "748">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineCovering::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Covering.h"
+                  timestampString = "409803865.71471"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineCovering::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Covering.h"
+                  timestampString = "409803865.715053"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "900">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Packing.h"
+            timestampString = "409804793.968545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check/main.cpp"
+            timestampString = "409812204.438667"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "checkCovering()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checkCovering()"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/Check/main.cpp"
+                  timestampString = "409804794.010475"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "513">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checkCovering()"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/Check/main.cpp"
+                  timestampString = "409804794.01088"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "606">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checkCovering()"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/Check/main.cpp"
+                  timestampString = "409804794.01136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "625">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Packing.h"
+            timestampString = "409804894.664639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Packing.h"
+            timestampString = "409805160.917553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Packing.h"
+            timestampString = "409805397.302759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineCovering::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Covering.h"
+                  timestampString = "409805441.248381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "190">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineCovering::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Covering.h"
+                  timestampString = "409805441.24883"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "299">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineCovering::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Covering.h"
+                  timestampString = "409805441.249389"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "328">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check/main.cpp"
+            timestampString = "409813290.871395"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "main(int argc, const char * argv[])"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/Check/main.cpp"
+                  timestampString = "409813084.768643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "1450">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/Check/main.cpp"
+                  timestampString = "409813084.769069"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "1508">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/Check/main.cpp"
+                  timestampString = "409813084.769376"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "1578">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check/main.cpp"
+            timestampString = "409813290.871395"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "main(int argc, const char * argv[])"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alien/MaxRectsBinPack.cpp"
+            timestampString = "409812959.219126"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "MaxRectsBinPack::Insert(std::vector&lt;RectSize&gt; &amp;rects, std::vector&lt;Rect&gt; &amp;dst, FreeRectChoiceHeuristic method)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alien/MaxRectsBinPack.cpp"
+            timestampString = "409812959.219126"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "MaxRectsBinPack::PlaceRect(const Rect &amp;node)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rbp::MaxRectsBinPack::PlaceRect(rbp::Rect const&amp;)"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/Alien/MaxRectsBinPack.cpp"
+                  timestampString = "409812622.323708"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "115">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rbp::MaxRectsBinPack::PlaceRect(rbp::Rect const&amp;)"
+                  moduleName = "Check"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/Alien/MaxRectsBinPack.cpp"
+                  timestampString = "409812622.324178"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "173">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409947040.236589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1150">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "409947040.237045"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1171">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabuSearchMaxRectPacking::Log::open(unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TabuSearchMaxRectPacking.h"
+                  timestampString = "410013730.34816"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabuSearchMaxRectPacking::Log::open(unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TabuSearchMaxRectPacking.h"
+                  timestampString = "410013730.348757"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "595">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabuSearchMaxRectPacking::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TabuSearchMaxRectPacking.h"
+                  timestampString = "410017084.856376"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "858">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabuSearchMaxRectPacking::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TabuSearchMaxRectPacking.h"
+                  timestampString = "410017084.856747"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "927">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/TabuSearchMaxRectPacking.h"
+            timestampString = "410051622.254286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabuSearchMaxRectPacking::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TabuSearchMaxRectPacking.h"
+                  timestampString = "410018222.734815"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "701">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabuSearchMaxRectPacking::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/TabuSearchMaxRectPacking.h"
+                  timestampString = "410018222.735277"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "730">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410070395.526963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "410053961.533956"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "756">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
+                  timestampString = "410053961.534295"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "846">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/MaxRectPacking.h"
+            timestampString = "410070814.921989"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MaxRectPacking::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/MaxRectPacking.h"
+                  timestampString = "410072324.94061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MaxRectPacking::fillFixed(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/MaxRectPacking.h"
+                  timestampString = "410072324.941002"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/MaxRectPacking.h"
+            timestampString = "410071090.061271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/MaxRectPacking.h"
+            timestampString = "410070814.921989"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410052153.218498"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/MaxRectPacking.h"
+            timestampString = "410071090.061271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/BaseLayer.h"
+            timestampString = "410101994.05367"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/BaseLayer.h"
+            timestampString = "410101994.05367"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/BaseLayer.h"
+            timestampString = "410070543.886087"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaseLayer::BruteSearch::search()"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/BaseLayer.h"
+                  timestampString = "410070543.887659"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "437">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaseLayer::BruteSearch::search()"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/BaseLayer.h"
+                  timestampString = "410070543.88795"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/BaseLayer.h"
+            timestampString = "410101994.05367"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/BaseLayer.h"
+            timestampString = "410101994.05367"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaseLayer::BruteSearch::search()"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/BaseLayer.h"
+                  timestampString = "410070699.14278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "807">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaseLayer::BruteSearch::search()"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/BaseLayer.h"
+                  timestampString = "410070699.14305"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "903">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/BaseLayer.h"
+            timestampString = "410101994.05367"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/MaxRectPacking.h"
+            timestampString = "410071090.061271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/MaxRectPacking.h"
+            timestampString = "410071181.741595"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MaxRectPacking::solve()"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/MaxRectPacking.h"
+                  timestampString = "410072208.959115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "230"
+                  endingLineNumber = "230"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MaxRectPacking::solve()"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/MaxRectPacking.h"
+                  timestampString = "410072208.959307"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "230"
+                  endingLineNumber = "230"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/MaxRectPacking.h"
+            timestampString = "410071516.983905"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Help.h"
+            timestampString = "410101955.100726"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "checkLayer(PR_C_IT begin, unsigned n, unsigned z_min, unsigned z_max)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checkLayer(std::__1::__wrap_iter&lt;Pr const*&gt;, unsigned int, unsigned int, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Help.h"
+                  timestampString = "410101994.100874"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "852">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checkLayer(std::__1::__wrap_iter&lt;Pr const*&gt;, unsigned int, unsigned int, unsigned int)"
+                  moduleName = "SantaSleighPacking"
+                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/Help.h"
+                  timestampString = "410101994.101353"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "876">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/main.cpp"
+            timestampString = "410101981.826946"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SantaSleighPacking/Help.h"
+            timestampString = "410102049.878504"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "checkLayer(PR_C_IT begin, unsigned n, unsigned z_min, unsigned z_max)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

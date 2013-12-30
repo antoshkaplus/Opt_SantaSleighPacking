@@ -1,0 +1,5 @@
+
+Scripts/*.pydb
+Scripts/*.txt
+*.pyc
+DerivedData
