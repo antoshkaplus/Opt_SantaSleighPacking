@@ -12,8 +12,8 @@
 #include "Packing.h"
 
 struct MaxRectPacking : Packing {
-    MaxRectPacking() : nextBest(*this) {
-        next = &nextBest;
+    MaxRectPacking() : nextMax(*this), nextMaxHuge(*this) {
+        next = &nextMax;
         moveLess = &moveShortSide;
         isCandidate = &topLeft;
     }
@@ -108,8 +108,8 @@ struct MaxRectPacking : Packing {
         }
     }; 
     
-    struct NextBest : Next {
-        NextBest(MaxRectPacking& master) : Next(master) {}
+    struct NextMax : Next {
+        NextMax(MaxRectPacking& master) : Next(master) {}
         void operator()() {
             vector<Move>& cands = master.candidates; 
             function<bool(const Move&, const Move&)> less = [&](const Move& m_1, const Move& m_2) {
@@ -124,8 +124,26 @@ struct MaxRectPacking : Packing {
         }
     };
     
+    struct NextMaxHuge : Next {
+        NextMaxHuge(MaxRectPacking& master) : Next(master) {}
+        void operator()() {
+            vector<Move>& cands = master.candidates; 
+            function<bool(const Move&, const Move&)> less = [&](const Move& m_1, const Move& m_2) {
+                return (*master.moveLess)(m_1, m_2) || 
+                     (!(*master.moveLess)(m_2, m_1) && m_1.pr->area() < m_2.pr->area());
+            };
+            Move m = *max_element(cands.begin(), cands.end(), less);
+            master.solution.push_back(m);
+            master.packingRects.erase(
+                remove(master.packingRects.begin(), 
+                     master.packingRects.end(), 
+                     master.solution.back().pr));
+        }
+    };
+    
     Next *next;
-    NextBest nextBest;
+    NextMax nextMax;
+    NextMaxHuge nextMaxHuge;
     
     MoveLess *moveLess;
     MoveShortSide moveShortSide;
@@ -138,6 +156,18 @@ struct MaxRectPacking : Packing {
     /// present, where did put
     vector<Move> solution;
     vector<Move> candidates;
+    
+    void setNext(Next& next) {
+        this->next = &next;
+    }
+    
+    void setMoveLess(MoveLess& moveLess) {
+        this->moveLess = &moveLess;
+    }
+    
+    void setCandidate(Candidate& candidate) {
+        this->isCandidate = &candidate;
+    }
     
     void selectCandidates() {
         Move m;

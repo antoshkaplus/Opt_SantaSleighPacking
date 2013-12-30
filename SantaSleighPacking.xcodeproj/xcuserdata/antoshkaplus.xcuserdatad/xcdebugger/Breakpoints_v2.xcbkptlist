@@ -1451,52 +1451,6 @@
             timestampString = "410070395.526963"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
-                  moduleName = "SantaSleighPacking"
-                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
-                  timestampString = "409947040.236589"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "61"
-                  endingLineNumber = "61"
-                  offsetFromSymbolStart = "1150">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fill(std::__1::__wrap_iter&lt;Pr*&gt;, unsigned int)"
-                  moduleName = "SantaSleighPacking"
-                  urlString = "file:///Users/antoshkaplus/Documents/Programming/Contests/Kaggle/SantaSleighPacking/SantaSleighPacking/main.cpp"
-                  timestampString = "409947040.237045"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "61"
-                  endingLineNumber = "61"
-                  offsetFromSymbolStart = "1171">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SantaSleighPacking/main.cpp"
-            timestampString = "410070395.526963"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
             endingLineNumber = "65"
             landmarkName = "fill(vector&lt;Pr&gt;::iterator begin, unsigned n)"

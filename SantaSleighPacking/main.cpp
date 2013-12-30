@@ -33,7 +33,6 @@ void fill(vector<Pr>::iterator begin, unsigned n) {
     BaseLayer baseL;
     //TailLayer tailL;
     //baseL.setPacking(baseL.linePacking);
-    
     //baseL.setPacking(baseL.maxRectPacking);
     
     /*
@@ -43,13 +42,14 @@ void fill(vector<Pr>::iterator begin, unsigned n) {
     baseL.setPacking(baseL.tabuSearchMaxRectPacking);
     */
     
+    baseL.maxRectPacking.setNext(baseL.maxRectPacking.nextMaxHuge);
+    
     while (b_it-begin != n) {
         //if (b_it-begin > 700000) baseL.setPacking(baseL.linePacking);
         // all take what they need
         //baseL.setAdjustment(baseL.optimalAdjustment);
         baseL.fill(b_it, n-(unsigned)(b_it-begin));
         checkLayer(b_it, baseL.n, 1, baseL.sz_z_max);
-        //writePrsLayer(baseL.begin, baseL.n);
         if (COMPUTE_TAIL) {
             /*
             tailL.fill(baseL, b_it+baseL.n, n-(unsigned)(b_it-begin)-baseL.n, tailL.rectSetStrategy);
