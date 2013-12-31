@@ -84,7 +84,18 @@ public:
             //writePrs2D(begin, n);
             solution.assign(begin, begin+n);
         }
-    
+        
+        static unsigned estimatePerfectHeight(PR_IT begin, unsigned n_max) {
+            unsigned n_cur, sz = 0;
+            auto b = begin;
+            while (b != begin+n_max) {
+                n_cur = boundSzZ(b, n_max-(unsigned)(b-begin), 250);
+                sz += maxSzZ(b, n_cur);
+                b += n_cur;
+            }
+            return sz;
+        }
+        
     };
     
     

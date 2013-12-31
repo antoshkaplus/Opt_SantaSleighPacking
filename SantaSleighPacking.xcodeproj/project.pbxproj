@@ -67,6 +67,7 @@
 		7068C39A185A840900BCB450 /* Check.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Check.1; sourceTree = "<group>"; };
 		70B5C0EA1871B45A005768CE /* results.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = results.txt; sourceTree = "<group>"; };
 		70B5C0EB1871D4C3005768CE /* plot_stats.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = plot_stats.py; sourceTree = "<group>"; };
+		70B5C0ED18722FDE005768CE /* ideas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ideas.txt; sourceTree = "<group>"; };
 		70C10D2A186CE97500B034D8 /* Packing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packing.h; sourceTree = "<group>"; };
 		70C10D37186F212700B034D8 /* TabuSearchMaxRectPacking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabuSearchMaxRectPacking.h; sourceTree = "<group>"; };
 		70C10D3A186F4E4F00B034D8 /* MaxRectPacking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxRectPacking.h; sourceTree = "<group>"; };
@@ -162,6 +163,7 @@
 				70C10D37186F212700B034D8 /* TabuSearchMaxRectPacking.h */,
 				70C10D3A186F4E4F00B034D8 /* MaxRectPacking.h */,
 				70B5C0EA1871B45A005768CE /* results.txt */,
+				70B5C0ED18722FDE005768CE /* ideas.txt */,
 			);
 			path = SantaSleighPacking;
 			sourceTree = "<group>";

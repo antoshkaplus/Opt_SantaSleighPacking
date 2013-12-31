@@ -11,8 +11,8 @@
 #include <list>
 
 #include "Help.h"
+#include "BaseLayer.h"
 #include "TailLayer.h"
-#include "MaxRectsBinPack.h"
 
 
 void initPrs2d(vector<Pr>& prs) {
@@ -43,89 +43,13 @@ void checkGuillotine() {
 }
 */
 
-void checkCovering() {
-    vector<Pr> prs;
-    initPrs2d(prs);
-    LineCovering covering;
-    printf("not covered: %d\n", covering.fillFixed(prs.begin(), (unsigned)prs.size()));
-    writePrs2D(prs.begin(), (unsigned)prs.size());
-}
-
-
-void checkTailLayer() {
-    const unsigned SZ = 10;
-    bool arr[SZ][SZ];
-    for (unsigned y = 0; y < SZ; y++) {
-        for (unsigned x = 0; x < SZ; x++) {
-            arr[x][y] = random()%2;
-        }
-    }
-    
-    vector<LocRect> closedR;
-    
-    int dN[SZ][SZ] ;
-    for (int x = 0; x < SZ; x++) {
-        dN[x][0] = arr[x][0] ? 0 : -1;
-    }
-    for (int y = 1; y < SZ; ++y) {
-        for (int x = 0 ; x < SZ; x++) {
-            if (!arr[x][y]) dN[x][y] = -1;
-            else dN[x][y] = dN[x][y-1] + 1 ;
-        }
-    }
-    int dS[SZ][SZ];
-    for (int x = 0; x < SZ ; ++ x ) {
-        dS[x][SZ-1] = arr[x][SZ-1] ? 0 : -1;
-    }
-    for (int y = SZ-2; y >= 0; y--) {
-        for (int x = 0; x < SZ ; x++) {
-            if (!arr[x][y]) dS[x][y] = -1;
-            else dS [x][y] = dS[x][y+1] + 1 ;
-        }
-    }
-    for (int x = SZ-1; x >= 0; x--) {
-        int maxS = SZ;
-        for (int y = SZ-1; y >= 0; y--) {
-            maxS++;
-            if (arr[x][y] && (x == 0 || !arr[x-1][y])) {
-                int N = dN[x][y];
-                int S = dS[x][y];
-                int width = 1;
-                while (x + width < SZ && arr[x + width][y]) {
-                    int nextN = dN[x+width][y];
-                    int nextS = dS[x+width][y];
-                    if ((nextN < N) || (nextS < S)) {
-                        if (S < maxS) closedR.push_back(LocRect(x, y-N, width, N+S+1));
-                        if (nextN < N) N = nextN;
-                        if (nextS < S) S = nextS;
-                    }
-                    width++;
-                }
-                if (S < maxS) closedR.push_back(LocRect(x, y-N, width, N+S+1));
-                maxS = 0 ;
-            }
-        }
-    }
-                    
-    FILE *file = fopen("tail_layer.txt", "w");
-    for (unsigned y = 0; y < SZ; y++) {
-        for (unsigned x = 0; x < SZ; x++) {
-            fprintf(file, "%d ", (int)arr[y][x]);
-        }
-        fprintf(file, "\n");
-    }
-    printf("rectangles:");
-    for (unsigned i = 0; i < closedR.size(); i++) {
-        LocRect &r = closedR[i];
-        fprintf(file, "%u, %u, %u, %u\n", r.x, r.y, r.sz_x, r.sz_y);
-    }
-    
-}
-
 int main(int argc, const char * argv[])
 {
     vector<Pr> prs(N);
     readPrsSzs(prs.begin(), N);
+    cout << BaseLayer::MaxCountSequentialSearch::estimateHeight(prs.begin(), N);
+    
+    /*
     rbp::MaxRectsBinPack b(SZ, SZ);
     vector<rbp::RectSize> rects;
     unsigned n = 270;
@@ -147,5 +71,6 @@ int main(int argc, const char * argv[])
     for (unsigned i = 0; i < n; i++) {
         writePrs2D(prs.begin(), n);
     }
+    */
 }
 

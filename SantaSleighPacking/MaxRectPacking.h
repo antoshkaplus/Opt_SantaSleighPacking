@@ -82,7 +82,6 @@ struct MaxRectPacking : Packing {
         
     // compares moves
     struct MoveLess {
-    
         virtual bool operator()(const Move& m_1, const Move& m_2) const = 0;
     };
     
@@ -101,6 +100,8 @@ struct MaxRectPacking : Packing {
     };
         
     struct MoveShortSide : MoveLess {
+        MoveShortSide() : allowableDifference(0) {}
+        unsigned allowableDifference;
         unsigned score(const Move& m) const {
             return m.isRotated ? min(m.rect.sz_x - (*m.pr).sz_y, 
                                      m.rect.sz_y - (*m.pr).sz_x) :
@@ -108,7 +109,7 @@ struct MaxRectPacking : Packing {
                                      m.rect.sz_y - (*m.pr).sz_y);
         }
         bool operator()(const Move& m_1, const Move& m_2) const {
-            return abs((int)score(m_1) - (int)score(m_2)) > 1 && score(m_1) > score(m_2);
+            return abs((int)score(m_1) - (int)score(m_2)) > allowableDifference && score(m_1) > score(m_2);
         }
     }; 
     
@@ -213,7 +214,7 @@ struct MaxRectPacking : Packing {
         this->moveLess = &moveLess;
     }
     
-    void setCandidate(Candidate& candidate) {
+    virtual void setCandidate(Candidate& candidate) {
         this->isCandidate = &candidate;
     }
     
@@ -315,7 +316,7 @@ struct MaxRectPacking : Packing {
             // clear packing rects from present
             removeSubMaxFreeRects();
         }
-        copySolution();
+        if (packingRects.size() == 0) copySolution();
     }
     
     void init(PR_IT begin, unsigned n) {

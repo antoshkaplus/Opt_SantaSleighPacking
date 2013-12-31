@@ -1,3 +1,4 @@
+
 //
 //  TabuSearchMaxRectPacking.h
 //  SantaSleighPacking
@@ -15,11 +16,24 @@
 #include "MaxRectPacking.h"
 
 struct TabuSearchMaxRectPacking : MaxRectPacking { 
-    TabuSearchMaxRectPacking() : log(*this) {}
-
+    TabuSearchMaxRectPacking() : log(*this), tabuSearchCandidate(*this) {
+        tabuSearchCandidate.isCandidate = MaxRectPacking::isCandidate;
+        MaxRectPacking::isCandidate = &tabuSearchCandidate;
+    }
+    
+    struct TabuSearchCandidate : Candidate {
+        Candidate* isCandidate;
+        TabuSearchMaxRectPacking& master;
+        TabuSearchCandidate(TabuSearchMaxRectPacking& master) : Candidate(static_cast<MaxRectPacking&>(master)), master(master) {}
+        virtual bool operator()(const Move& m) {
+            return master.tabuList.find(master.key(m)) == master.tabuList.end() && (*isCandidate)(m);
+        }
+    };
+    
     MaxRectFinder maxRectFinder;
     // need init this two to get key right
     unsigned presentIdIndent;
+    // needed for key computation
     unsigned max_sz;
     // init this value after getting solution
     unsigned filledArea;
@@ -28,6 +42,11 @@ struct TabuSearchMaxRectPacking : MaxRectPacking {
     unsigned iterationIndex;
     unsigned allowableAdjMaxRectCount;
     bool logEnabled;
+    TabuSearchCandidate tabuSearchCandidate;
+    
+    void setCandidate(Candidate& candidate) {
+        tabuSearchCandidate.isCandidate = &candidate;
+    }
     
     vector<unsigned> adjMaxRectCount;
     struct Value {
@@ -53,7 +72,7 @@ struct TabuSearchMaxRectPacking : MaxRectPacking {
         }
         for (unsigned i = 0; i < solution.size(); i++) {
             if (adjMaxRectCount[i] > 0) {
-                tabuList[key(solution[i])] = Value(filledArea, adjMaxRectCount[i]*2);
+                tabuList[key(solution[i])] = Value(filledArea, adjMaxRectCount[i]);
             }
         }
     }
@@ -67,9 +86,9 @@ struct TabuSearchMaxRectPacking : MaxRectPacking {
         filledGrid.fill(false);
         for (unsigned i = 0; i < solution.size();) {
             if (adjMaxRectCount[i] <= allowableAdjMaxRectCount) {
-                Pr &p = *solution[i].pr;
-                for (unsigned x = p.x; x < p.x+p.sz_x; x++) {
-                    for (unsigned y = p.y; y < p.y+p.sz_y; y++) {
+                LocRect r = solution[i].prLocRect();
+                for (unsigned x = r.x; x < r.x+r.sz_x; x++) {
+                    for (unsigned y = r.y; y < r.y+r.sz_y; y++) {
                         filledGrid(x, y) = true;
                     }
                 }
@@ -88,7 +107,7 @@ struct TabuSearchMaxRectPacking : MaxRectPacking {
         unsigned i = 0;
         for (auto s = solution.begin(); s != solution.end(); s++, i++) {
             for (auto r = freeRects.begin(); r != freeRects.end(); r++) {
-                if (LocRect::areAdjucent(s->pr->toLocRect(), *r)) {
+                if (LocRect::areAdjucent(s->prLocRect(), *r)) {
                     adjMaxRectCount[i]++;
                 }
             }
@@ -101,6 +120,7 @@ struct TabuSearchMaxRectPacking : MaxRectPacking {
             filledArea += s->pr->area();
         }
     }
+    
     struct Log {
         TabuSearchMaxRectPacking& master;
         Log(TabuSearchMaxRectPacking& master) : master(master) {}
@@ -132,12 +152,8 @@ struct TabuSearchMaxRectPacking : MaxRectPacking {
         init(begin, n);
         unsigned minUnplacedPresentsCount = n;
         allowableAdjMaxRectCount = 2;
-        array<unsigned, 3> iterationCountPerStage = {5, 200, 1}; 
-        array<unsigned, 3> stageIterationCount = iterationCountPerStage;
-        //fill(stageIterationCount.begin(), stageIterationCount.end(), iterationCountPerStage);
-        while (true) {
+        while (iterationIndex != 100) {
             solve();
-            
             // gather stats
             if (packingRects.size() < minUnplacedPresentsCount) {
                 minUnplacedPresentsCount = (unsigned)packingRects.size();
@@ -150,28 +166,12 @@ struct TabuSearchMaxRectPacking : MaxRectPacking {
             else {
                 bestFilledAreaChanged = false;
             }
-            /**
-            if (--stageIterationCount[allowableAdjMaxRectCount] == 0) {
-                
-                //stageIterationCount[allowableAdjMaxRectCount] = iterationCountPerStage;
-                while (stageIterationCount[allowableAdjMaxRectCount] == 0) {
-                    stageIterationCount[allowableAdjMaxRectCount] = iterationCountPerStage[allowableAdjMaxRectCount]-1;
-                    allowableAdjMaxRectCount--;
-                }
-                if (stageIterationCount[0] == 0) break;
-                stageIterationCount[allowableAdjMaxRectCount]--;
-                /*
-                for (unsigned i = allowableAdjMaxRectCount; i < 3; i++) {
-                    stageIterationCount[i]--;
-                }
-                *
-            }
-            */
             countAdjMaxRects();
             // dont go out before logged // need to know allowableAdjMaxRectCount
             if (logEnabled) log.write();
 
             if (minUnplacedPresentsCount == 0) {
+                //copySolution();
                 break;
             }
             updateTabuList();
