@@ -2,4 +2,8 @@
 Scripts/*.pydb
 Scripts/*.txt
 *.pyc
-DerivedData
+DerivedData/
+.DS_Store
+.idea/
+cmake-build-*/
+temp/

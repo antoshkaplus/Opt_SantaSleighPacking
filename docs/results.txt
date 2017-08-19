@@ -1,0 +1,25 @@
+
+Max rectangles: 
+1. optimal   | short side first : 
+    2071702
+2. optimal   | short side and huge first:
+    2068304
+3. optimal   | short side random of 10:
+    2095320
+4. optimal   | double origin | short side random of 10: really bad // but has expectations on TS
+    it doesn't work. stay with tot left.
+5. optimal   | short side huge in small rectangle:
+    2068198  // size of rectangle doen't metter.
+6. max count | short side if sz diff > 1 | huge first:
+    2085764  
+7. optimal   | short side if sz diff > 1 | huge first:
+    2064560
+    
+    
+996483 : max presents height
+989719 : optimal presents on layer
+
+806031 : perfect height
+
+985592 : wleite
+
